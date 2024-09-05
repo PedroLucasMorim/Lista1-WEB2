@@ -14,16 +14,16 @@ $cartola = array($numeros1,$numeros2,$numeros3,$numeros4);
 echo "Aqui tem 4 números aleatórios: ";
 print_r($cartola);
 
-$nengueinformatico1 = $numeros1*$numeros1;
-$nengueinformatico2 = $numeros2*$numeros2;
-$nengueinformatico3 = $numeros3*$numeros3;
-$nengueinformatico4 = $numeros4*$numeros4;
+$informatico1 = $numeros1*$numeros1;
+$informatico2 = $numeros2*$numeros2;
+$informatico3 = $numeros3*$numeros3;
+$informatico4 = $numeros4*$numeros4;
 
-if ($nengueinformatico3>=1000){
-    echo "O quadrado do terceiro:  $nengueinformatico3";
+if ($informatico3>=1000){
+    echo "O quadrado do terceiro:  $informatico3";
 }
     else{
-    echo "O quadrado dos números:  $nengueinformatico1, $nengueinformatico2,$nengueinformatico3,$nengueinformatico4";
+    echo "O quadrado dos números:  $informatico1, $informatico2,$informatico3,$informatico4";
     }
 
 ?>
